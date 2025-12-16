@@ -6,9 +6,9 @@ This repository contains the following code:
   - `inv28_9shape.py`: Performs adjoint-based **shape optimization** to design the target structure.
   - `cav.py`: Generates the initial structure used to start the shape optimization.
   - `st_05_8192_179.npy` is the initial structure produced by `cav.py`.
-  **Input data (initial structure)**
-  - When running `cav.py`, this file  `st_05_8192_179.npy` is saved to:
-  - `cavdata/data/changev` directiory.
+  - **Input data (initial structure)**
+    - When running `cav.py`, this file  `st_05_8192_179.npy` is saved to:
+    - `cavdata/data/changev` directiory.
   ### Notes
   - To run `cav.py` and `inv28_9shape.py`, first create the Conda environment from `pmp.yml`, then activate it before executing either script:
   - `conda env create -f pmp.yaml`
