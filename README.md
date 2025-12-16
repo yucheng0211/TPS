@@ -16,6 +16,8 @@ This repository contains the following code:
   - The commned to run `cav.py` and `inv28_9shape.py`:
 
         nohup mpirun -np 40 python cav.py &
+  or 
+  
         nohup mpirun -np 40 python inv28_9shape.py &
 
 - **Testing code**
