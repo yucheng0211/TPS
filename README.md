@@ -25,8 +25,9 @@ This repository contains the following code:
 - **Plot enhancement**
     - In `inv28_9data_shape/post-sim-test2`, the jupter notebook `t.ipynb` is use the data generated  from `dftscrp.py` code.
 
+```mermaid
 flowchart LR
-A[cav.py] -->|Generate| B[st_05_8192_179.npy]
-B -->|Initialize| C[Run inv28_9shape.py]
-C -->|Output| D[Final design]
-D -->|Evaluate| E[Testing code]
+  A[cav.py] -->|Generate| B[st_05_8192_179.npy]
+  B -->|Initialize| C[Run inv28_9shape.py]
+  C -->|Output| D[Final design]
+  D -->|Evaluate| E[Testing code]
