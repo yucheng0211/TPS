@@ -12,7 +12,7 @@ This repository contains the following code:
   ### Notes
   - To run `cav.py` and `inv28_9shape.py`, first create the Conda environment from `pmp.yml`, then activate it before executing either script:
 
-        `conda env create -f pmp.yaml`
+        conda env create -f pmp.yaml
 
 
 - **Testing code**
