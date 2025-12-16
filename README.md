@@ -13,7 +13,10 @@ This repository contains the following code:
   - To run `cav.py` and `inv28_9shape.py`, first create the Conda environment from `pmp.yml`, then activate it before executing either script:
 
         conda env create -f pmp.yaml
+  - The commned to run `cav.py` and `inv28_9shape.py`:
 
+        nohup mpirun -np 40 python cav.py &
+        nohup mpirun -np 40 python inv28_9shape.py &
 
 - **Testing code**
   - `dftscrp.py`: Simulates the designed DFT field.
