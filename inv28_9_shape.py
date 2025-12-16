@@ -40,7 +40,7 @@ Ny = int(dy * resolution) + 1
 
 
 # === cavity ===
-cavity_design = np.load("inv28_9data/data/changev/st_05_8192_179.npy")
+cavity_design = np.load("st_05_8192_179.npy")
 cavity_design = cavity_design.reshape((Nx, Ny))
 
 # === Mapping parameter ===
