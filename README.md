@@ -9,8 +9,8 @@ This repository contains the following code:
   **Input data (initial structure)**
   - When running `cav.py`, this file is saved to:
   - `cavdata/data/changev/st_05_8192_179.npy`
-### Notes
-- To run `cav.py` and `inv28_9shape.py`, first create the Conda environment from `pmp.yml`, then activate it before executing either script:
+- ### Notes
+  - To run `cav.py` and `inv28_9shape.py`, first create the Conda environment from `pmp.yml`, then activate it before executing either script:
   - `conda env create -f pmp.yaml`
 
 
