@@ -11,4 +11,4 @@ This repository contains the following code:
   - `harminv.py`: Extracts the \(Q\)-value (quality factor).
 
 - **Plot enhancement**
-    - In `inv28_9data_shape/post-sim-test2`, the jupter notebook `t.ipynb` is use the data generated  from `dftscrp.py`
+    - In `inv28_9data_shape/post-sim-test2`, the jupter notebook `t.ipynb` is use the data generated  from `dftscrp.py` code.
